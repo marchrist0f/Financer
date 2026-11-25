@@ -1,0 +1,45 @@
+@{
+    Layout=null;
+}
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Questioner</title>
+          <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"rel="stylesheet">
+    </head>
+
+        <body>
+        <div class="d-flex justify-content-center align-items-center vh-100">
+            <div class="card" style="width: 18rem;">
+                <div class="text-center">
+                <h1>Let's Learn About You!</h1>
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label">What is your occupation?</label>
+                    <input type="text" name="occupation" class="form-control">
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">What Sector are you working?</label>
+            
+                    <select class="form-select" name="sector" required>
+                        <option value="">Select a sector</option>
+                        <option value="Technology">Technology</option>
+                        <option value="Service">Service Industry</option>
+                        <option value="Finance">Finance</option>
+                        <option value="Retail">Retail</option>
+                        <option value="Healthcare">Healthcare</option>
+                        <option value="Education">Education</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </div>
+                    <div class="mb-3">
+                    <label class="form-label">What is your monthly salary?</label>
+                    <input type="text" class="form-control">
+                    </div>
+            </div>
+        </div>
+        </body>
+</html>
