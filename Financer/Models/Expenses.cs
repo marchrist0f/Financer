@@ -18,5 +18,5 @@ public class Expenses
 
     public string PaymentMethod {get; set;}="";
 
-    public User User {get; set;}=null; //FK Relationship
+    public User User {get; set;}=null!; //FK Relationship
 }

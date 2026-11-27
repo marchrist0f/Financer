@@ -3,7 +3,16 @@ namespace Financer.Models;
 public class User
 {
     public int Id {get; set;}
+
     public string Username {get; set;}="";
+
     public string Email{get; set;}="";
+
     public string Password{get; set;}="";
+
+    public decimal? Salary { get; set; }
+
+    public string? Occupation { get; set; }
+
+    public string? Sector { get; set; }
 }

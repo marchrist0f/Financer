@@ -16,10 +16,10 @@
                 <div class="text-center">
                 <h1>Let's Learn About You!</h1>
                 </div>
-
+    <form asp-controller="Questioner" asp-action="Questioner" method="post">
                 <div class="mb-3">
                     <label class="form-label">What is your occupation?</label>
-                    <input type="text" name="occupation" class="form-control">
+                    <input type="text" name="occupation" class="form-control" name="occupation">
                 </div>
                 <div class="mb-3">
                     <label class="form-label">What Sector are you working?</label>
@@ -37,8 +37,13 @@
                 </div>
                     <div class="mb-3">
                     <label class="form-label">What is your monthly salary?</label>
-                    <input type="text" class="form-control">
+                    <input type="text" class="form-control" name="salary">
                     </div>
+
+                    <div class="mb-3">
+                        <button type="button" class="btn btn-primary">Submit</button>
+                    </div>
+            </form>
             </div>
         </div>
         </body>
